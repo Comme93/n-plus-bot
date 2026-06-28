@@ -57,13 +57,16 @@
     "8229507089",
     "8229739340"
   ],
-  "reminders": [],
-  "seeded": true,
-  "updateOffset": 486762473,
-  "sessions": {
-    "875355522": {
-      "step": "new_hours",
-      "text": "привет"
+  "reminders": [
+    {
+      "id": "1782668030358bcu6",
+      "chatId": 875355522,
+      "text": "привет",
+      "hours": 1,
+      "last": 1782668030358
     }
-  }
+  ],
+  "seeded": true,
+  "updateOffset": 486762474,
+  "sessions": {}
 }
