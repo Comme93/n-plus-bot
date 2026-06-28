@@ -69,16 +69,5 @@
   ],
   "seeded": true,
   "updateOffset": 486762481,
-  "sessions": {
-    "875355522": {
-      "step": "new_time",
-      "text": "ПРИВАТ"
-    }
-  },
-  "panels": {
-    "875355522": {
-      "messageId": 77
-    }
-  },
-  "lastUpdateId": 486762489
+  "sessions": {}
 }
