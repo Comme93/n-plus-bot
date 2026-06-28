@@ -26,7 +26,15 @@ jobs:
 
       - run: npm install --omit=dev
 
-      - name: Run bot daemon
+      - name: Telegram webhook → Vercel
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          curl -sS -X POST "https://api.telegram.org/bot${BOT_TOKEN}/setWebhook" \
+            -H "Content-Type: application/json" \
+            -d '{"url":"https://n-plus-bot.vercel.app/api/webhook","allowed_updates":["message","callback_query"]}'
+
+      - name: Run avito worker
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
