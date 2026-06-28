@@ -63,10 +63,7 @@
   "reminders": [],
   "ui": {
     "875355522": {
-      "panel": 169,
-      "step": "pick",
-      "draft": {},
-      "draftId": "1tyrin87"
+      "panel": 169
     }
   },
   "drafts": {
@@ -86,5 +83,5 @@
     }
   },
   "avitoStats": {},
-  "lastUpdateId": 486762637
+  "lastUpdateId": 486762638
 }
