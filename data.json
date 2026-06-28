@@ -74,11 +74,16 @@
       "step": "new_text"
     }
   },
-  "pending": {},
+  "pending": {
+    "875355522": {
+      "text": "привет",
+      "step": "when"
+    }
+  },
   "panels": {
     "875355522": {
       "messageId": 90
     }
   },
-  "lastUpdateId": 486762500
+  "lastUpdateId": 486762501
 }
