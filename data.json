@@ -63,9 +63,11 @@
   "reminders": [],
   "ui": {
     "875355522": {
-      "panel": 169
+      "panel": 169,
+      "step": "name",
+      "draft": {}
     }
   },
   "avitoStats": {},
-  "lastUpdateId": 486762589
+  "lastUpdateId": 486762590
 }
