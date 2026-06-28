@@ -61,16 +61,17 @@
   "reminders": [],
   "seeded": true,
   "updateOffset": 486762481,
-  "sessions": {
+  "sessions": {},
+  "pending": {
     "875355522": {
-      "step": "new_text"
+      "text": "1",
+      "step": "when"
     }
   },
-  "pending": {},
   "panels": {
     "875355522": {
       "messageId": 124
     }
   },
-  "lastUpdateId": 486762539
+  "lastUpdateId": 486762540
 }
