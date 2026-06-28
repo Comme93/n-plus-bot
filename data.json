@@ -58,7 +58,15 @@
     "8229507089",
     "8229739340"
   ],
-  "reminders": [],
+  "reminders": [
+    {
+      "id": "1782672707837wrx2",
+      "chatId": 875355522,
+      "text": "1",
+      "type": "once",
+      "at": 1782672720000
+    }
+  ],
   "seeded": true,
   "updateOffset": 486762481,
   "sessions": {},
@@ -73,5 +81,5 @@
       "messageId": 124
     }
   },
-  "lastUpdateId": 486762541
+  "lastUpdateId": 486762542
 }
