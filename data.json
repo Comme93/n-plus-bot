@@ -70,7 +70,14 @@
   "seeded": true,
   "updateOffset": 486762481,
   "sessions": {},
-  "pending": {},
+  "pending": {
+    "875355522": {
+      "text": "приват",
+      "step": "mode",
+      "hour": 21,
+      "minute": 51
+    }
+  },
   "panels": {
     "875355522": {
       "messageId": 124
