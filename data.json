@@ -60,9 +60,5 @@
   "reminders": [],
   "seeded": true,
   "updateOffset": 486762446,
-  "sessions": {
-    "875355522": {
-      "step": "new_text"
-    }
-  }
+  "sessions": {}
 }
