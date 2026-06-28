@@ -71,7 +71,7 @@
   "updateOffset": 486762481,
   "sessions": {
     "875355522": {
-      "step": "new_when",
+      "step": "new_time",
       "text": "ПРИВАТ"
     }
   },
@@ -80,5 +80,5 @@
       "messageId": 77
     }
   },
-  "lastUpdateId": 486762488
+  "lastUpdateId": 486762489
 }
