@@ -65,23 +65,23 @@
       "text": "приват",
       "type": "once",
       "at": 1782672660000
+    },
+    {
+      "id": "1782672657344fk43",
+      "chatId": 875355522,
+      "text": "приват",
+      "type": "once",
+      "at": 1782672660000
     }
   ],
   "seeded": true,
   "updateOffset": 486762481,
   "sessions": {},
-  "pending": {
-    "875355522": {
-      "text": "приват",
-      "step": "mode",
-      "hour": 21,
-      "minute": 51
-    }
-  },
+  "pending": {},
   "panels": {
     "875355522": {
       "messageId": 124
     }
   },
-  "lastUpdateId": 486762532
+  "lastUpdateId": 486762533
 }
