@@ -66,16 +66,11 @@
       "step": "new_text"
     }
   },
-  "pending": {
-    "875355522": {
-      "text": "21:44",
-      "step": "when"
-    }
-  },
+  "pending": {},
   "panels": {
     "875355522": {
       "messageId": 108
     }
   },
-  "lastUpdateId": 486762523
+  "lastUpdateId": 486762524
 }
