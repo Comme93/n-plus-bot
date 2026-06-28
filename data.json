@@ -61,22 +61,22 @@
     "8229739340"
   ],
   "seeded": true,
-  "reminders": [],
+  "reminders": [
+    {
+      "id": "1782676150014m4x7",
+      "chatId": 875355522,
+      "text": "123",
+      "type": "repeat",
+      "hours": 1,
+      "last": 1782676150014
+    }
+  ],
   "ui": {
     "875355522": {
-      "panel": 169,
-      "step": "when",
-      "draft": {},
-      "draftId": "vqvfqql1"
+      "panel": 169
     }
   },
-  "drafts": {
-    "vqvfqql1": {
-      "text": "123",
-      "chatId": 875355522,
-      "at": 1782676144762
-    }
-  },
+  "drafts": {},
   "avitoStats": {},
-  "lastUpdateId": 486762750
+  "lastUpdateId": 486762751
 }
