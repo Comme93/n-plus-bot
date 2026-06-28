@@ -61,23 +61,13 @@
     "8229739340"
   ],
   "seeded": true,
-  "reminders": [
-    {
-      "id": "17826748438804ddf",
-      "chatId": 875355522,
-      "text": "123",
-      "type": "daily",
-      "hour": 22,
-      "minute": 28,
-      "lastDay": "2026-06-28"
-    }
-  ],
+  "reminders": [],
   "ui": {
     "875355522": {
       "panel": 169
     }
   },
   "avitoStats": {},
-  "lastUpdateId": 486762661,
+  "lastUpdateId": 486762662,
   "drafts": {}
 }
