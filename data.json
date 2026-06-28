@@ -71,7 +71,8 @@
   "updateOffset": 486762481,
   "sessions": {
     "875355522": {
-      "step": "new_text"
+      "step": "new_when",
+      "text": "123"
     }
   },
   "panels": {
@@ -79,5 +80,5 @@
       "messageId": 84
     }
   },
-  "lastUpdateId": 486762494
+  "lastUpdateId": 486762495
 }
