@@ -1,4 +1,7 @@
 node_modules/
-data.json
 .env
-avito_test.html
+.vercel
+render-deploy.png
+.render-session/
+
+.vercel
