@@ -65,18 +65,21 @@
   "ui": {
     "875355522": {
       "panel": 169,
-      "step": "when",
+      "step": "fix_time",
       "draft": {},
-      "draftId": "x64c8664"
+      "draftId": "x64c8664",
+      "retry": null
     }
   },
   "drafts": {
     "x64c8664": {
       "text": "123",
       "chatId": 875355522,
-      "at": 1782675756343
+      "at": 1782675756343,
+      "h": 22,
+      "mi": 42
     }
   },
   "avitoStats": {},
-  "lastUpdateId": 486762701
+  "lastUpdateId": 486762702
 }
