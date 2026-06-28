@@ -10,15 +10,27 @@ export default async function handler(req, res) {
   if (!token || !gh) return res.status(500).json({ error: 'config' });
 
   const api = makeApi(token);
+  const update = req.body;
 
   try {
     for (let i = 0; i < 5; i++) {
-      let { data, sha } = await loadState(gh);
-      data = await handleUpdate(data, req.body, api);
+      const { data: loaded, sha: loadedSha } = await loadState(gh);
+      let data = loaded;
+      let sha = loadedSha;
+
+      if (data.lastUpdateId && update.update_id <= data.lastUpdateId) {
+        return res.status(200).json({ ok: true, skip: true });
+      }
+
+      const prevId = data.lastUpdateId;
+      data = await handleUpdate(data, update, api);
+      data.lastUpdateId = update.update_id;
+
       try {
         sha = await saveState(gh, data, sha);
         break;
       } catch (e) {
+        data.lastUpdateId = prevId;
         if (i === 4 || !String(e.message).includes('409')) throw e;
       }
     }
