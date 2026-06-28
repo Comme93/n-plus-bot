@@ -69,5 +69,11 @@
   ],
   "seeded": true,
   "updateOffset": 486762481,
-  "sessions": {}
+  "sessions": {},
+  "panels": {
+    "875355522": {
+      "messageId": 77
+    }
+  },
+  "lastUpdateId": 486762486
 }
