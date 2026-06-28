@@ -26,8 +26,6 @@ console.log('[bot] start', data.users?.length, 'users');
 
 while (Date.now() < end) {
   try {
-    ({ data, sha } = await loadState(ghToken));
-
     const updates = await fetch(
       `https://api.telegram.org/bot${token}/getUpdates?offset=${data.updateOffset || 0}&timeout=0&allowed_updates=${encodeURIComponent(JSON.stringify(['message', 'callback_query']))}`
     ).then((r) => r.json());
@@ -37,13 +35,13 @@ while (Date.now() < end) {
         data = await handleUpdate(data, u, api);
         data.updateOffset = u.update_id + 1;
       }
+      sha = await saveState(ghToken, data, sha);
     }
 
     if (n % 3 === 0) {
       data = await runWorker(data, token);
+      sha = await saveState(ghToken, data, sha);
     }
-
-    sha = await saveState(ghToken, data, sha);
   } catch (e) {
     console.error('[tick]', e.message);
   }
