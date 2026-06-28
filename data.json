@@ -65,7 +65,9 @@
   "pending": {
     "875355522": {
       "text": "приват",
-      "step": "when"
+      "step": "mode",
+      "hour": 21,
+      "minute": 51
     }
   },
   "panels": {
@@ -73,5 +75,5 @@
       "messageId": 124
     }
   },
-  "lastUpdateId": 486762530
+  "lastUpdateId": 486762531
 }
