@@ -1,6 +1,6 @@
 import { execSync } from 'child_process';
 import { runWorker } from '../lib/worker.mjs';
-import { loadState, saveState, mergeEphemeral } from '../lib/github-store.mjs';
+import { loadState, saveState, mergeForDaemonSave } from '../lib/github-store.mjs';
 
 const token = process.env.BOT_TOKEN;
 const ghToken = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
@@ -16,7 +16,7 @@ while (Date.now() < end) {
   try {
     let { data, sha } = await loadState(ghToken);
     data = await runWorker(data, token);
-    const merged = await mergeEphemeral(ghToken, data);
+    const merged = await mergeForDaemonSave(ghToken, data);
     data = merged.data;
     if (merged.sha) sha = merged.sha;
     sha = await saveState(ghToken, data, sha);
