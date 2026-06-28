@@ -1,5 +1,5 @@
 import { handleUpdate, makeApi } from '../lib/telegram.mjs';
-import { loadState, saveState } from '../lib/github-store.mjs';
+import { loadState, saveState, mergeBeforeSave } from '../lib/github-store.mjs';
 
 export default async function handler(req, res) {
   if (req.method === 'GET') return res.status(200).send('ok');
@@ -25,6 +25,10 @@ export default async function handler(req, res) {
       const prevId = data.lastUpdateId;
       data = await handleUpdate(data, update, api);
       data.lastUpdateId = update.update_id;
+
+      const merged = await mergeBeforeSave(gh, data);
+      data = merged.data;
+      sha = merged.sha;
 
       try {
         sha = await saveState(gh, data, sha);
