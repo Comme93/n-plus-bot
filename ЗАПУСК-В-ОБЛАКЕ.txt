@@ -1,0 +1,20 @@
+БОТ В ОБЛАКЕ — БЕСПЛАТНО 24/7 (3 минуты, ПК можно выключить)
+
+1. GitHub.com → войти → New repository → имя: n-plus-bot → Create
+
+2. Залить файлы (в папке проекта, PowerShell):
+   git init
+   git add .
+   git commit -m "bot"
+   git branch -M main
+   git remote add origin https://github.com/ТВОЙ_ЛОГИН/n-plus-bot.git
+   git push -u origin main
+
+3. Render.com → Sign Up (через GitHub) → New + → Blueprint
+   → подключить репозиторий n-plus-bot → Apply
+
+4. Когда спросит BOT_TOKEN — вставить токен от BotFather → Apply
+
+5. Дождаться Deploy: Live (зелёный) → написать боту /start
+
+Готово. Бот крутится на серверах Render, твой ПК не нужен.
