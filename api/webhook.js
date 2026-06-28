@@ -14,7 +14,9 @@ export default async function handler(req, res) {
   try {
     for (let i = 0; i < 5; i++) {
       let { data, sha } = await loadState(gh);
+      const sessions = { ...data.sessions };
       data = await handleUpdate(data, req.body, api);
+      data.sessions = { ...sessions, ...data.sessions };
       try {
         sha = await saveState(gh, data, sha);
         break;
