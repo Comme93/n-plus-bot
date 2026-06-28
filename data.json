@@ -64,12 +64,14 @@
   "ui": {
     "875355522": {
       "panel": 169,
-      "step": "when",
+      "step": "pick",
       "draft": {
-        "text": "1234"
+        "text": "1234",
+        "h": 22,
+        "mi": 25
       }
     }
   },
   "avitoStats": {},
-  "lastUpdateId": 486762613
+  "lastUpdateId": 486762614
 }
