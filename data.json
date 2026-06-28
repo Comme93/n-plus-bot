@@ -59,10 +59,11 @@
   ],
   "reminders": [],
   "seeded": true,
-  "updateOffset": 486762472,
+  "updateOffset": 486762473,
   "sessions": {
     "875355522": {
-      "step": "new_text"
+      "step": "new_hours",
+      "text": "привет"
     }
   }
 }
