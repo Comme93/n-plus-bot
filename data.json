@@ -67,7 +67,12 @@
       "step": "new_text"
     }
   },
-  "pending": {},
+  "pending": {
+    "875355522": {
+      "text": "1",
+      "step": "when"
+    }
+  },
   "panels": {
     "875355522": {
       "messageId": 157
