@@ -9,13 +9,12 @@ if (!token || !ghToken) process.exit(1);
 
 const RUN_MS = Number(process.env.DAEMON_MS || 5.4 * 3_600_000);
 
-let { data, sha } = await loadState(ghToken);
 const end = Date.now() + RUN_MS;
-
 console.log('[avito] start');
 
 while (Date.now() < end) {
   try {
+    let { data, sha } = await loadState(ghToken);
     data = await runWorker(data, token);
     sha = await saveState(ghToken, data, sha);
   } catch (e) {
