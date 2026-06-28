@@ -1,20 +1,14 @@
-БОТ В ОБЛАКЕ — БЕСПЛАТНО 24/7 (3 минуты, ПК можно выключить)
+БОТ УЖЕ РАБОТАЕТ 24/7 В ОБЛАКЕ (GitHub Actions, бесплатно)
 
-1. GitHub.com → войти → New repository → имя: n-plus-bot → Create
+Твой ПК не нужен.
 
-2. Залить файлы (в папке проекта, PowerShell):
-   git init
-   git add .
-   git commit -m "bot"
-   git branch -M main
-   git remote add origin https://github.com/ТВОЙ_ЛОГИН/n-plus-bot.git
-   git push -u origin main
+Что делать:
+1. Открой своего бота в Telegram
+2. Напиши /start
+3. Всё
 
-3. Render.com → Sign Up (через GitHub) → New + → Blueprint
-   → подключить репозиторий n-plus-bot → Apply
+Напоминание: 4ч купить наушники
+Список: /list
 
-4. Когда спросит BOT_TOKEN — вставить токен от BotFather → Apply
-
-5. Дождаться Deploy: Live (зелёный) → написать боту /start
-
-Готово. Бот крутится на серверах Render, твой ПК не нужен.
+Проверка Авито — примерно каждую минуту.
+Репозиторий: https://github.com/Comme93/n-plus-bot
