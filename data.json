@@ -69,11 +69,5 @@
   ],
   "seeded": true,
   "updateOffset": 486762481,
-  "sessions": {
-    "875355522": {
-      "step": "new_text"
-    }
-  },
-  "panels": {},
-  "lastUpdateId": 486762485
+  "sessions": {}
 }
