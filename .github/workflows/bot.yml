@@ -14,19 +14,28 @@ permissions:
   actions: write
 
 jobs:
-  bot:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Webhook on Vercel
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          curl -sS -X POST "https://api.telegram.org/bot${BOT_TOKEN}/setWebhook" \
+            -H "Content-Type: application/json" \
+            -d '{"url":"https://n-plus-bot.vercel.app/api/webhook","allowed_updates":["message","callback_query"],"drop_pending_updates":true}'
+
+  avito:
+    needs: setup
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-
       - run: npm install --omit=dev
-
-      - name: Run bot
+      - name: Avito worker
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
