@@ -64,10 +64,13 @@
   "reminders": [],
   "ui": {
     "875355522": {
-      "panel": 169
+      "panel": 169,
+      "step": "pick",
+      "draft": {},
+      "draftId": "x64c8664",
+      "retry": null
     }
   },
   "avitoStats": {},
-  "lastUpdateId": 486762708,
-  "drafts": {}
+  "lastUpdateId": 486762708
 }
