@@ -69,12 +69,16 @@
   ],
   "seeded": true,
   "updateOffset": 486762481,
-  "sessions": {},
+  "sessions": {
+    "875355522": {
+      "step": "new_text"
+    }
+  },
   "pending": {},
   "panels": {
     "875355522": {
       "messageId": 90
     }
   },
-  "lastUpdateId": 486762499
+  "lastUpdateId": 486762500
 }
