@@ -62,18 +62,17 @@
   "reminders": [],
   "seeded": true,
   "updateOffset": 486762481,
-  "sessions": {},
-  "pending": {
+  "sessions": {
     "875355522": {
-      "text": "1",
-      "step": "when"
+      "step": "new_text"
     }
   },
+  "pending": {},
   "panels": {
     "875355522": {
       "messageId": 157
     }
   },
-  "lastUpdateId": 486762560,
+  "lastUpdateId": 486762561,
   "avitoStats": {}
 }
