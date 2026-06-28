@@ -65,23 +65,8 @@
   "ui": {
     "875355522": {
       "panel": 169,
-      "step": "when",
-      "draft": {},
-      "draftId": "0h1j51a1"
-    }
-  },
-  "drafts": {
-    "8xfwnky6": {
-      "text": "1",
-      "chatId": 875355522,
-      "at": 1782675231184,
-      "h": 22,
-      "mi": 34
-    },
-    "0h1j51a1": {
-      "text": "12",
-      "chatId": 875355522,
-      "at": 1782675374259
+      "step": "name",
+      "draft": {}
     }
   },
   "avitoStats": {},
