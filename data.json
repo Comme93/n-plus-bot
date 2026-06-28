@@ -70,6 +70,13 @@
       "draftId": "55t60u0l"
     }
   },
+  "drafts": {
+    "55t60u0l": {
+      "text": "123",
+      "chatId": 875355522,
+      "at": 1782675542682
+    }
+  },
   "avitoStats": {},
-  "lastUpdateId": 486762683
+  "lastUpdateId": 486762684
 }
