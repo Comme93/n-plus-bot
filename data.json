@@ -65,9 +65,7 @@
   "pending": {
     "875355522": {
       "text": "1",
-      "step": "mode",
-      "hour": 21,
-      "minute": 52
+      "step": "when"
     }
   },
   "panels": {
