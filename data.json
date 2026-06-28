@@ -67,12 +67,17 @@
       "step": "new_text"
     }
   },
-  "pending": {},
-  "panels": {
+  "pending": {
     "875355522": {
-      "messageId": 157
+      "text": "1",
+      "step": "when"
     }
   },
-  "lastUpdateId": 486762562,
+  "panels": {
+    "875355522": {
+      "messageId": 159
+    }
+  },
+  "lastUpdateId": 486762563,
   "avitoStats": {}
 }
