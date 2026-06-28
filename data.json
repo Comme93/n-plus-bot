@@ -64,9 +64,19 @@
   "reminders": [],
   "ui": {
     "875355522": {
-      "panel": 169
+      "panel": 169,
+      "step": "when",
+      "draft": {},
+      "draftId": "8xfwnky6"
+    }
+  },
+  "drafts": {
+    "8xfwnky6": {
+      "text": "1",
+      "chatId": 875355522,
+      "at": 1782675231184
     }
   },
   "avitoStats": {},
-  "lastUpdateId": 486762663
+  "lastUpdateId": 486762664
 }
