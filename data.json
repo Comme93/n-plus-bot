@@ -76,7 +76,7 @@
   },
   "pending": {
     "875355522": {
-      "text": "привет",
+      "text": "21:22",
       "step": "when"
     }
   },
@@ -85,5 +85,5 @@
       "messageId": 90
     }
   },
-  "lastUpdateId": 486762501
+  "lastUpdateId": 486762502
 }
