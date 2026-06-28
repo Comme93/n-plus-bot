@@ -64,7 +64,7 @@
   "ui": {
     "875355522": {
       "panel": 169,
-      "step": "when",
+      "step": "pick",
       "draft": {},
       "draftId": "1tyrin87"
     }
@@ -80,9 +80,11 @@
     "1tyrin87": {
       "text": "1234",
       "chatId": 875355522,
-      "at": 1782674816229
+      "at": 1782674816229,
+      "h": 22,
+      "mi": 27
     }
   },
   "avitoStats": {},
-  "lastUpdateId": 486762635
+  "lastUpdateId": 486762636
 }
