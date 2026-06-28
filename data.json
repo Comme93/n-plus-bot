@@ -59,16 +59,13 @@
     "8229507089",
     "8229739340"
   ],
-  "reminders": [],
   "seeded": true,
-  "updateOffset": 486762481,
-  "lastUpdateId": 486762575,
-  "avitoStats": {},
+  "reminders": [],
   "ui": {
     "875355522": {
-      "panel": 165,
-      "step": "name",
-      "draft": {}
+      "panel": 165
     }
-  }
+  },
+  "avitoStats": {},
+  "lastUpdateId": 486762576
 }
