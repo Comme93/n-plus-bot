@@ -80,14 +80,21 @@
   "ui": {
     "875355522": {
       "panel": 169,
-      "step": "name",
-      "draft": {}
+      "step": "when",
+      "draft": {},
+      "draftId": "66hmez2f"
     }
   },
-  "drafts": {},
+  "drafts": {
+    "66hmez2f": {
+      "text": "ksks",
+      "chatId": 875355522,
+      "at": 1782709312477
+    }
+  },
   "avitoStats": {
     "2026-06-28": 1,
     "2026-06-29": 2
   },
-  "lastUpdateId": 486762801
+  "lastUpdateId": 486762802
 }
