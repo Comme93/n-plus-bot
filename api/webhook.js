@@ -1,8 +1,12 @@
-import { handleUpdate, makeApi } from '../lib/telegram.mjs';
+import { handleUpdate, makeApi, registerBot } from '../lib/telegram.mjs';
 import { loadState, saveState, mergeBeforeSave } from '../lib/github-store.mjs';
 
 export default async function handler(req, res) {
-  if (req.method === 'GET') return res.status(200).send('ok');
+  if (req.method === 'GET') {
+    const token = process.env.BOT_TOKEN;
+    if (token) await registerBot(makeApi(token)).catch(() => {});
+    return res.status(200).send('ok');
+  }
   if (req.method !== 'POST') return res.status(405).end();
 
   const token = process.env.BOT_TOKEN;

@@ -24,6 +24,12 @@ jobs:
           curl -sS -X POST "https://api.telegram.org/bot${BOT_TOKEN}/setWebhook" \
             -H "Content-Type: application/json" \
             -d '{"url":"https://n-plus-bot.vercel.app/api/webhook","allowed_updates":["message","callback_query"],"drop_pending_updates":true}'
+          curl -sS -X POST "https://api.telegram.org/bot${BOT_TOKEN}/setMyCommands" \
+            -H "Content-Type: application/json" \
+            -d '{"commands":[{"command":"start","description":"Меню"}]}'
+          curl -sS -X POST "https://api.telegram.org/bot${BOT_TOKEN}/setChatMenuButton" \
+            -H "Content-Type: application/json" \
+            -d '{"menu_button":{"type":"commands"}}'
 
   avito:
     needs: setup
