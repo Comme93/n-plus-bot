@@ -70,7 +70,7 @@
   "reminders": [],
   "ui": {
     "875355522": {
-      "panel": 252,
+      "panel": 258,
       "step": "when",
       "draft": {},
       "draftId": "wm27ufee"
@@ -98,9 +98,15 @@
       "at": 1782709919901
     }
   },
+  "botMsgs": {
+    "875355522": [
+      252,
+      258
+    ]
+  },
   "avitoStats": {
     "2026-06-28": 1,
     "2026-06-29": 2
   },
-  "lastUpdateId": 486762861
+  "lastUpdateId": 486762862
 }
