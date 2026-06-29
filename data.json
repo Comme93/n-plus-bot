@@ -80,7 +80,7 @@
   "ui": {
     "875355522": {
       "panel": 252,
-      "step": "when",
+      "step": "name",
       "draft": {},
       "draftId": "3b07a5vj"
     }
@@ -106,5 +106,5 @@
     "2026-06-28": 1,
     "2026-06-29": 2
   },
-  "lastUpdateId": 486762847
+  "lastUpdateId": 486762848
 }
