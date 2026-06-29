@@ -71,9 +71,9 @@
   "ui": {
     "875355522": {
       "panel": 258,
-      "step": "name",
+      "step": "when",
       "draft": {},
-      "draftId": "wm27ufee"
+      "draftId": "s8n9ubcw"
     }
   },
   "drafts": {
@@ -96,11 +96,21 @@
       "text": "jdd",
       "chatId": 875355522,
       "at": 1782709919901
+    },
+    "s8n9ubcw": {
+      "text": "купить межзубный ёршик 0,6",
+      "chatId": 875355522,
+      "at": 1782711358959
     }
+  },
+  "botMsgs": {
+    "875355522": [
+      258
+    ]
   },
   "avitoStats": {
     "2026-06-28": 1,
     "2026-06-29": 2
   },
-  "lastUpdateId": 486762866
+  "lastUpdateId": 486762867
 }
