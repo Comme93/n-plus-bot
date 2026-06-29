@@ -71,9 +71,9 @@
   "ui": {
     "875355522": {
       "panel": 252,
-      "step": "name",
+      "step": "when",
       "draft": {},
-      "draftId": "ma6q5xao"
+      "draftId": "wm27ufee"
     }
   },
   "drafts": {
@@ -91,11 +91,21 @@
       "text": "dsfdsfdsdfsfdsdffsd",
       "chatId": 875355522,
       "at": 1782709876871
+    },
+    "wm27ufee": {
+      "text": "jdd",
+      "chatId": 875355522,
+      "at": 1782709919901
     }
+  },
+  "botMsgs": {
+    "875355522": [
+      252
+    ]
   },
   "avitoStats": {
     "2026-06-28": 1,
     "2026-06-29": 2
   },
-  "lastUpdateId": 486762860
+  "lastUpdateId": 486762861
 }
