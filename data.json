@@ -506,7 +506,7 @@
   "ui": {
     "875355522": {
       "panel": 812,
-      "step": "when",
+      "step": "name",
       "draft": {},
       "draftId": "qqs8qi2h"
     }
@@ -1035,5 +1035,5 @@
     "2026-06-29": 390,
     "2026-06-30": 47
   },
-  "lastUpdateId": 486762951
+  "lastUpdateId": 486762952
 }
