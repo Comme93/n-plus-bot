@@ -509,7 +509,7 @@
   "ui": {
     "875355522": {
       "panel": 12164,
-      "step": "edit_hours",
+      "step": "name",
       "draft": {},
       "draftId": "2crx531g",
       "editId": "17828333342430zot"
@@ -1079,5 +1079,5 @@
     "2026-06-30": 999,
     "2026-07-01": 999
   },
-  "lastUpdateId": 486762999
+  "lastUpdateId": 486763000
 }
